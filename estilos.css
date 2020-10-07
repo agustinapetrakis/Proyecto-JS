@@ -1,0 +1,291 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.clearfix{
+float: none;
+clear: both;
+}
+#global{
+    width: 65%;
+    margin: 0px auto;
+    margin-top: 30px;
+    background: white;
+    padding: 25px;
+    box-shadow: 0px 0px 2px gray;
+}
+
+#logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    letter-spacing: 4px;
+  
+    color: white;
+    text-align: center;
+    width: 389px;
+    height: 80px;
+    margin-bottom: 20px;
+    line-height: 75px;
+    float: left;
+    text-transform: uppercase;
+}
+#menu{
+    font-family:  Helvetica,Arial, sans-serif;
+    background: #333;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+#menu ul{
+    line-height: 46px;
+    list-style: none;
+}
+#menu ul li{
+    height: 46px;
+    display: inline-block;
+    transition: all 300ms;
+
+}
+
+
+
+#menu ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.bx-wrapper, .bx-viewport{
+   height: 250px !important;
+}
+
+#posts{
+    width: 60%;
+    float: left;
+    font-family:  Helvetica,Arial, sans-serif;
+}
+.post{
+    padding: 7px;
+    
+}
+h2{
+    font-size: 20px;
+    color: #333;
+    font-family:  Helvetica,Arial, sans-serif;
+    padding: 5px;
+    
+   
+}
+.post .date{
+    display: block;
+    margin-top: 5px;
+    color: gray;
+    
+}
+.post p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 22px;
+    text-align: justify;
+}
+.button-more{
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    width: 70px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#sidebar{
+    font-family:Helvetica, Arial,  sans-serif;
+    width: 31%;
+    float: right;
+}
+#sidebar h4{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    color: #333;
+    background: url(../proyecto-completo/imgenes/img/lines.png) repeat-x;
+}
+#sidebar h4 span{
+    background: white;
+    padding: 5px;
+}
+#sidebar img{
+    width: 100%;
+
+}
+#sidebar p{
+    font-size: 15px;
+    text-align: justify;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="password"]{
+padding: 5px;
+border-radius: 2px;
+border: 1px solid #ccc;
+width: 80%;
+margin-bottom: 10px;
+margin-top: 5px;
+}
+form input[type="submit"]{
+    background: rgb(241, 238, 238);
+    padding: 10px;
+    border: 1px solid #ccc;
+    color: #333;
+    cursor: pointer;
+    transition: 300ms;
+}
+footer{
+    font-family:Helvetica, Arial,  sans-serif;
+    color: white;
+    height: 47px;
+    background: rgba(51, 51, 51, 0.70);
+    margin: 0px auto;
+    width: 65%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    line-height: 47px;
+}
+#selector-theme{
+    position: fixed;
+    top: 40%;
+    background: rgba(51, 51, 51, 0.5);
+    width: 50px;
+    height: 100px;
+}
+#to-green,
+#to-red,
+#to-blue{
+    width: 25px;
+    height: 25px;
+    border:1px solid white;
+    display: block;
+    margin: 0px auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#to-green{
+    background: #235e3d;
+}
+#to-red{
+    background: #ca3413;
+}
+#to-blue{
+    background: #1f78ca;
+}
+.subir{
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: right;
+    margin-right: 30px;
+}
+#logout{
+    display: block;
+    float: center;
+    padding: 8px;
+    margin: 2px auto;
+    margin-top: 20px;
+    border-radius: 2px;
+    border: #333;
+    background: #ccc;
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 300ms;
+}
+#box{
+    width: 50%;
+    float: left;
+    margin-top: 40px;
+}
+#acordeon{
+    padding: 10px;
+}
+#acordeon h3{
+    color: black;
+    font-weight: bold;
+    }
+#reloj{
+    font-size: 30px;
+    font-weight: bold;
+    font-family:Helvetica, Arial,  sans-serif;
+    color: #333;
+    border: 2px dashed #333;
+    width: 50%;
+    padding: 30px;
+    margin: 0px auto;
+    text-align: center;
+}
+#contactame{
+    display: block;
+    float: left;
+    width: 90%;
+    height: 70%;
+    padding: 10px;
+    margin-top: 15px;
+   
+    border: 1px solid gainsboro;
+    font-family:Helvetica, Arial,  sans-serif;
+}
+#contactame label[for="name"],
+label[for="surname"],
+label[for="email"],
+label[for="sex"],
+label[for="date"],
+label[for="years"]{
+     font-size: 18px;
+     display: block;
+     margin: 0px auto;
+     padding: 4px;
+     float: left;
+     margin-top: 5px;
+     width: 100%;
+    
+    
+     
+}
+#contactame input[type="number"],
+select[name="sex"]{
+    display: block;
+    margin: 0px auto;
+    float: left;
+    padding: 5px;
+    margin-bottom: 6px;
+    margin-left: 0px;
+    margin-top: 7px;
+    height: 30px;
+    
+}
+#contactame select[name="sex"]{
+    width: 82%;
+    padding: 3px;
+}
+#contactame input[type="number"]{
+    width: 80%;
+    height: 18px;
+   
+}
+#contactame input[type="submit"]{
+    width: 100px;
+    margin-top: 30px;  
+    
+}
+.form-error{
+    color: red;
+}
+
+
+

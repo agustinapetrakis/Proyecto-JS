@@ -1,0 +1,35 @@
+body{
+    background: url(../proyecto-completo/imgenes/img/hojas.jpg);
+    background-attachment: fixed;
+}
+#logo{
+    background: #235e3d;
+    color: white;
+}
+#menu ul li:hover{
+    background: #235e3d;
+}
+.post h2{
+    font-size: 20px;
+    color: #235e3d;
+
+
+}
+.button-more{
+    background: #235e3d;
+}
+form input[type="submit"]:hover{
+    background: #235e3d;
+    color: white;
+}
+#logout:hover{
+    background: #235e3d;
+}
+#acordeon h3{
+    background: #235e3d;
+    }
+    #reloj{
+        background-color:  #235e3db0;
+        color: black;
+        border: 2px dashed black;
+    }
